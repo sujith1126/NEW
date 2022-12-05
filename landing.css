@@ -1,53 +1,91 @@
-body{
-    background-image: linear-gradient(to right, rgb(27, 5, 124) , powderblue);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.para{
-    
-    margin: auto;
-    margin-top: 100px;
-    width: 300px;
+
+body {
+    background-image: linear-gradient(to right, rgb(27, 5, 124), powderblue);
 }
-.buttons{
-    margin-left: 1200px;
-    margin-bottom: 1px;
+
+.companyName {
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.button{
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color:#fff;
-  background-color: powderblue;
-  border:none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+
+.navButtons {
+    margin: 0 30px;
 }
-.button:hover {background-color: blue;}
-.button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+
+.navButtons button {
+    margin: 0 10px;
+    padding: 2px 10px;
+    border: 1px solid #000;
+    outline: 0;
+    font-weight: 600;
 }
-.head{
+
+.head-Title {
     color: white;
     font-size: 25px;
-    margin: auto;
-    margin-top: 200px;
-    width: 300px;
+    text-align: center;
+    margin-top: 250px;
     text-shadow: 3px 2px black;
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+
 @keyframes example {
-   0% {color: white; }
-    25%{color: grey; }
-    50% {color: grey; }
-    100% {color: white; }
+    0% {
+        color: white;
+    }
+
+    25% {
+        color: grey;
+    }
+
+    50% {
+        color: grey;
+    }
+
+    100% {
+        color: white;
+    }
 }
-.my{
-    color: white;
+
+.companyDescription {
+    padding: 0 700px;
+    margin-top: 50px;
+    color: #000;
+}
+
+.Signup-Login-Btn {
+    margin-top: 50px;
+    margin-left: 75px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: powderblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.Signup-Login-Btn:hover {
+    background-color: blue;
+}
+
+.Signup-Login-Btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
