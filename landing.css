@@ -1,37 +1,45 @@
-body{
-    background-image: linear-gradient(to right, rgb(27, 5, 124) , powderblue);
+body {
+    background-image: linear-gradient(to right, rgb(27, 5, 124), powderblue);
 }
-.para{
-    
+
+.companyDescription {
+
     margin: auto;
     margin-top: 100px;
     width: 300px;
 }
-.buttons{
+
+.navButtons {
     margin-left: 1200px;
     margin-bottom: 1px;
 }
-.button{
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color:#fff;
-  background-color: powderblue;
-  border:none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+
+.Signup-Login-Btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: powderblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
-.button:hover {background-color: blue;}
-.button:active {
+
+.Signup-Login-Btn:hover {
+    background-color: blue;
+}
+
+.Signup-Login-Btn:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
-.head{
+
+.head-Title {
     color: white;
     font-size: 25px;
     margin: auto;
@@ -42,12 +50,25 @@ body{
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+
 @keyframes example {
-   0% {color: white; }
-    25%{color: grey; }
-    50% {color: grey; }
-    100% {color: white; }
+    0% {
+        color: white;
+    }
+
+    25% {
+        color: grey;
+    }
+
+    50% {
+        color: grey;
+    }
+
+    100% {
+        color: white;
+    }
 }
-.my{
+
+.companyName {
     color: white;
 }
