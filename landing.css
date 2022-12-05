@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(to right, rgb(27, 5, 124) , powderblue);
+}
+.para{
+    
+    margin: auto;
+    margin-top: 100px;
+    width: 300px;
+}
+.buttons{
+    margin-left: 1200px;
+    margin-bottom: 1px;
+}
+.button{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:#fff;
+  background-color: powderblue;
+  border:none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button:hover {background-color: blue;}
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.head{
+    color: white;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 200px;
+    width: 300px;
+    text-shadow: 3px 2px black;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+   0% {color: white; }
+    25%{color: grey; }
+    50% {color: grey; }
+    100% {color: white; }
+}
+.my{
+    color: white;
+}
